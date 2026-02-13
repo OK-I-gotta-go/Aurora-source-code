@@ -1,5 +1,5 @@
 (() => {
-    let uvPfx = "/uv/";
+    let uvPfx = "/auora";
     // check if config is loaded in context of service worker or not
     let loc = self.location.pathname.includes(uvPfx)
         ? self.location.pathname.substring(
@@ -8,11 +8,11 @@
           )
         : self.location.pathname.substring(
               0,
-              self.location.pathname.lastIndexOf("/"),
+              self.location.pathname.lastIndexOf("-"),
           );
 
     self.__uv$config = {
-        prefix: uvPfx + "service/",
+        prefix: uvPfx + "uv/",
         encodeUrl: Ultraviolet.codec.xor.encode,
         decodeUrl: Ultraviolet.codec.xor.decode,
         handler: loc + uvPfx + "uv.handler.js",
