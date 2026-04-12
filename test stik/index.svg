@@ -1,4 +1,6 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="position: fixed; inset: 0;">
+    
 <!DOCTYPE html>
 <html lang="en">
 
@@ -717,3 +719,5 @@
 </body>
 
 </html>
+  </foreignObject>
+</svg>
