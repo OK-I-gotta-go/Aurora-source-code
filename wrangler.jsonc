@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "aurorasources",
+  "compatibility_date": "2026-04-12",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "test stik"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
